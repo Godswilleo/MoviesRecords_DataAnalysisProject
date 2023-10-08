@@ -59,17 +59,17 @@ In the course of this project, the following skills were demonstrated;
 ### Investigating the Dataset
 The dataset was investigated and the following findings were made
 1.	Missing data in some columns
-![](/img/missing-data.JPG)
-*The image show each column with respective number of data missing
+![](/img/missing-data.JPG)<br />
+*The image show each column with respective number of data missing*
 
 2.	Remove duplicate record
-![](/img/duplicate-data.JPG)
+![](/img/duplicate-data.JPG)<br />
 *1 duplicate record exists*
 
 3.	There is need to create a **Profit** column 
 4.	Genres are moduled up together in one column seperated by "|"
 5.	Production_companies are also moduled up together in one column seperated by "|"
 
-![](/img/genre-production-companies.JPG)
+![](/img/genre-production-companies.JPG)<br />
 *Genre and Production_companies columns showing the data*
 
