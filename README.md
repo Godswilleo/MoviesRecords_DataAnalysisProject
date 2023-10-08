@@ -1,3 +1,5 @@
+![](/img/banner.jpg)
+
 # Movie Records Data Analysis Project
 In this project, I explored a dataset containing movie records. The project is mearnt to The dataset was cleaned and transformed
 in make it easy to work on and insights generated. 
