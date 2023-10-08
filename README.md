@@ -4,10 +4,6 @@
 In this project, I explored a dataset containing movie records. The project is mearnt to The dataset was cleaned and transformed
 in make it easy to work on and insights generated. 
 
-
-
-
-
 ### Dataset Source: 
 The dataset was sourced from kaggle.com. It contains a single csv file with 10,866 records and 21 columns.
 Below are the columns and their properties;
@@ -74,4 +70,13 @@ The dataset was investigated and the following findings were made
 
 ![](/img/genre-production-companies.JPG)<br />
 *Genre and Production_companies columns showing the data*
+
+### Cleaning and Transformation operations
+The follow operations were carried out on the dataset in other to make it clean and ready to be analyzed so as to answer the questions stated above
+1.	**Missing data in some columns:** This was handled in two operations first the fields like homepage,tagline and keywords which contains over 1000 empty data were dropped from the dataset. This as well also took care of the fact that they columns were not necessary for the analysis to be carried out. On the other hand the missing data in the remaining text fields where filled with dummy data.
+2.	**Remove duplicate record:** Just one duplicate record was discovered and it was deleted
+3.	**Create a column for profit:** A "profit" column was added to the dataset since questions on profit were going to be answered.
+4.	Genres are moduled up together in one column seperated by "|": In other to accurately analyze the genres there is need to unbundle the respective genres under which each movie falls under. This was done and a new csv file was created named **genre_cleaned.csv**. This is was done to be able to answer questions 1 and 2.
+5.	**Production_companies** are also moduled up together in one column seperated by "|": Similarly, there was a need unbundle all of the production_companies which partook in the creation of each film in other to be able to effectively carry out analysis and answer questions which has to do with production_companies. A new csv **prodname_cleaned.csv** file was created from the original dataset. This is was done to be able to answer questions 4 and 5.
+6.	**Genre and Production_companies analysis:** A third csv file was created from the genre file. This file is specifically created in other to be able to answer question 6 which will require the combine analsis of borth genre and production_companies.
 
