@@ -1,4 +1,4 @@
-![](/img/banner.jpg)
+![](/img/banner.JPG)<br />
 
 # Movie Records Data Analysis Project
 In this project, I explored a dataset containing movie records. The project is mearnt to The dataset was cleaned and transformed
